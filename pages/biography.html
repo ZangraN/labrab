@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <!-- Мета-теги для настройки страницы -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Заголовок страницы в браузере -->
+    <title>Моя Биография - Биография</title>
+    <!-- Подключение файла стилей с учетом вложенности -->
+    <link rel="stylesheet" href="../style/style.css">
+</head>
+<body>
+    <!-- Шапка сайта -->
+    <header>
+        <!-- Навигационное меню -->
+        <nav>
+            <ul class="nav-menu">
+                <li><a href="../index.html">Главная</a></li>
+                <!-- Текущая страница выделена классом active -->
+                <li><a href="biography.html" class="nav-link active">Биография</a></li>
+                <li><a href="hobbies.html">Увлечения</a></li>
+                <li><a href="contacts.html">Контакты</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Основной контент страницы -->
+    <main>
+        <h1>Образование</h1>
+        
+        <!-- Секция с фотографиями мест обучения -->
+        <section class="education-photos">
+            <h2>Места обучения</h2>
+            <div class="photo-grid">
+                <!-- Блок школы -->
+                <div class="photo-item">
+                    <a href="http://gorodistche.baranovichi.edu.by/ru/main.aspx">
+                        <img src="../images/school.jpg" alt="Школа" class="education-image">
+                        <h3>Средняя школа</h3>
+                        <p>2007-2015</p>
+                    </a>
+                </div>
+                <!-- Блок колледжа -->
+                <div class="photo-item">
+                    <a href="https://ltk.grsu.by/">
+                        <img src="../images/college.jpg" alt="Колледж" class="education-image">
+                        <h3>Колледж</h3>
+                        <p>2015-2020</p>
+                    </a>
+                </div>
+                <!-- Блок университета -->
+                <div class="photo-item">
+                    <a href="https://www.grsu.by/">
+                        <img src="../images/university.jpg" alt="Университет" class="education-image">
+                        <h3>Университет</h3>
+                        <p>2023-настоящее время</p>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Таблица с подробной информацией об образовании -->
+        <section class="education">
+            <table>
+                <tr>
+                    <th>Год</th>
+                    <th>Учебное заведение</th>
+                    <th>Специальность</th>
+                </tr>
+                <tr>
+                    <td>2007-2015г.</td>
+                    <td>Городищенская средняя школа</td>
+                    <td>Среднее образование</td>
+                </tr>
+                <tr>
+                    <td>2016-2020г.</td>
+                    <td>УО ГрГУ им. Я.Купалы Лидский колледж</td>
+                    <td>Электронные вычислительные средства</td>
+                </tr>
+                <tr>
+                    <td>2023-настоящее</td>
+                    <td>ГрГУ им. Я.Купалы</td>
+                    <td>Информационно-измерительные приборы и системы</td>
+                </tr>
+            </table>
+        </section>
+    </main>
+
+    <!-- Подвал сайта с контактной информацией -->
+    <footer>
+        <span>Дешево! <a class="footer_link" href="tel:+375297229213">+375(29)722-92-13</a></span>
+    </footer>
+</body>
+</html> 
